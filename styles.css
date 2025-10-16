@@ -5,7 +5,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("images/backgroundFB.jpg");
+  background-image: url("/VaughnFayeFarms/images/backgroundFB.jpg");
   /* Full height */
   height: 75%; 
   /* Center and scale the image nicely */

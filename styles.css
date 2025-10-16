@@ -19,7 +19,9 @@ body, html {
 /* color pallet link https://colorhunt.co/palette/fffbdaffec9effbb70ed9455 */
 
 .farmName {
-  margin: 100px;
+  margin-top: 0%;
+  padding-top: 150px;
+  /* margin-top: 20%; */
   text-align: center;
   font-family: "Lucida Handwriting", cursive, sans-serif;
   font-size: 300%;

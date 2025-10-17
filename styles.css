@@ -49,7 +49,7 @@ list-style: none;
 
 .navFront{
   /* display: flex-box; */
-  flex-direction: row;
+  /* flex-direction: row; */
   /* border: black solid 1px; */
   /* margin: 0;
   padding: 0; */

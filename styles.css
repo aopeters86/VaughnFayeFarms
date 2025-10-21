@@ -23,7 +23,6 @@ body, html {
 /*landing page title*/
 .farmName {
   margin-top: 0%;
-  /* padding-top: 70vh; */
   position: fixed;
   bottom: 20vh;
   width: 100%;
@@ -35,28 +34,25 @@ body, html {
 
 /* landing page navigation list items*/
 .navLiFront {
-  /* border: black solid 1px; */
-  display: inline;
-  /* display: grid; */
-  /* row-gap: 50px; */
-/* justify-content: center; */
-/* text-align: center; */
-/* padding: 50px; */
-margin-top: 0;
-margin-bottom: 0;
+  border: black solid 1px;
+  border-radius: 25px;
+  height: 75px;
+  width: 150px;
+display: inline;
+margin-top: 5px;
+margin-bottom: 5px;
 margin-inline-start: 0;
 margin-inline-end: 0;
-padding: 5vw; 
+padding-left: 5vw;
+padding-right: 5vw; 
 list-style: none;
 }
-
+/* nav bar unordered list */
 .navFront{
-  /* display: flex-box; */
-  /* flex-direction: row; */
-  /* border: black solid 1px; */
-  /* margin: 0;
-  padding: 0; */
-  text-align: center;
+  border: black solid 1px;
+  /* text-align: center; */
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /* copyright across all pages */
@@ -75,12 +71,3 @@ text-align: center;
 position:fixed;
 bottom: 0;
 }
-
-  /* list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFEC9E;
-  display: flex;
-  justify-content: center;*/
-  /* gap: 50px; */

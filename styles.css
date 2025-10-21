@@ -10,7 +10,10 @@ body, html {
 }
 
 .bg {
+  /* background image is used with farmname, which orients for screenshot 
+  to be used instead of the image, lettering is placed correctly this way. */
   background-image: url("images/backGroundFB.jpg");
+  /* background-image: url("images/newLandingPic.png"); */
   height: 85vh; 
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -18,12 +21,21 @@ body, html {
   margin-top: 0%;
 }
 
-/* color pallet link https://colorhunt.co/palette/fffbdaffec9effbb70ed9455 */
+/* h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #040303;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+} */
 
-/*landing page title*/
+/*lighter / main color pallet link: https://colorhunt.co/palette/fffbdaffec9effbb70ed9455 */
+/* darker / text color pallet link: https://colorhunt.co/palette/040303461111a13333b3541e */
+/*landing page title currently not used*/
 .farmName {
-  margin-top: 0%;
-  position: fixed;
+  margin-top: 0px;
+  margin-bottom: 1vh;
+  position: absolute;
   bottom: 20vh;
   width: 100%;
   text-align: center;
@@ -32,27 +44,63 @@ body, html {
   color: #FFFBDA;
 }
 
+
+/* Pseudo classes  */
+a {
+  text-decoration: none;
+  /* color: black; */
+}
+a:active{
+ color: #A13333
+}
+a:link {
+  color: #040303;
+}
+a:visited {
+  color: #461111;
+}
+
+a:hover{
+  color: #A13333;
+}
+
+.navLiFront:hover{
+  background-color: #ED9455;
+}
+
 /* landing page navigation list items*/
 .navLiFront {
-  border: black solid 1px;
-  border-radius: 25px;
-  height: 75px;
-  width: 150px;
-display: inline;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-inline-start: 0;
-margin-inline-end: 0;
-padding-left: 5vw;
-padding-right: 5vw; 
-list-style: none;
+border: black solid 1px;
+border-radius: 10px;
+height: 30px;
+width: 175px;
+display: inline-flex;
+/* margin-top: 5px; */
+/* margin-bottom: 5px; */
+/* margin-inline-start: 0;
+margin-inline-end: 0; */
+/* padding-left: 10px;
+padding-right: 10px;  */
+/* list-style: none; */
+justify-content: center;
+align-items: center;
+/* text-align: center; */
 }
+
+
 /* nav bar unordered list */
 .navFront{
-  border: black solid 1px;
-  /* text-align: center; */
-  padding-left: 5vw;
-  padding-right: 5vw;
+  display: flex;
+  /* border: black solid 1px; */
+  justify-content: space-evenly;
+  /* margin:; */
+  /* align-items: center; */
+/* margin-inline-start: 0;
+margin-inline-end: 0;  */
+padding-left: 10px;
+padding-right: 10px; 
+  /* padding-left: 5vw;
+  padding-right: 5vw; */
 }
 
 /* copyright across all pages */
@@ -64,10 +112,10 @@ list-style: none;
   padding: 2px;
 }
 
-/* landing oage footer */
+/* landing page footer */
 .footer{
 width: 100%;
 text-align: center;
-position:fixed;
+/* position:fixed; */
 bottom: 0;
 }

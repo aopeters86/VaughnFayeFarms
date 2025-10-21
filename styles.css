@@ -14,7 +14,7 @@ body, html {
   to be used instead of the image, lettering is placed correctly this way. */
   /* background-image: url("images/backGroundFB.jpg"); */
   background-image: url("images/useMePic.png");
-  height: 85vh; 
+  height: 65vh; 
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@ body, html {
   margin-top: 0px;
   margin-bottom: 1vh;
   position: absolute;
-  bottom: 20vh;
+  bottom: 40vh;
   width: 100%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;

@@ -51,9 +51,7 @@ a {
   text-decoration: none;
   /* color: black; */
 }
-/* a:active{
- background-color: #A13333
-} */
+
 a:link {
   color: #040303;
 }
@@ -76,7 +74,7 @@ a:hover{
 /* landing page navigation list items*/
 .navLiFront {
 border: black solid 1px;
-border-radius: 10px;
+border-radius: 15px;
 height: 30px;
 width: 175px;
 /* display: inline-flex; */
